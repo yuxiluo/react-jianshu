@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/js/runtime~main.fec8070b.js"
   },
   {
-    "revision": "b64a728b48af7b9b6700",
-    "url": "/react-jianshu/static/js/main.b64a728b.chunk.js"
+    "revision": "4718345df440654e8712",
+    "url": "/react-jianshu/static/js/main.4718345d.chunk.js"
   },
   {
     "revision": "9a802032c67974dbcc85",
     "url": "/react-jianshu/static/js/2.9a802032.chunk.js"
   },
   {
-    "revision": "b64a728b48af7b9b6700",
+    "revision": "4718345df440654e8712",
     "url": "/react-jianshu/static/css/main.eeefa4ca.chunk.css"
   },
   {
-    "revision": "b3b5a16096ac3b8a5c9ecaa69a4c80bb",
+    "revision": "d39b18f8a577718c78d27578145f250a",
     "url": "/react-jianshu/index.html"
   }
 ];
