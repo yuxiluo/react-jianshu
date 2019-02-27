@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "data": { 
+        "author": {
+            "userName": "办公技巧",
+            "imgUrl": "//upload.jianshu.io/users/upload_avatars/1828416/0b9609867163.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96",
+            "follow": 1,
+            "paid": 49.6,
+            "time": 1551005297,
+            "size": 925,
+            "read": 688,
+            "comment": 4,
+            "like": 28
+        },
+        "artcile": {
+            "id": "f980dc83b7c0",
+            "title": "好用到颤抖的4款手机APP，个个都是良心精选！",
+            "content": "<p>1、乐享视频</p><div class='image-view'><img src='//upload-images.jianshu.io/upload_images/12594401-b6fb84ef20701517?imageMogr2/auto-orient/strip%7CimageView2/2/w/640/format/webp' /></div><p>乐享视频是一个聚合性的全能视频播放软件，播放功能非常强大，但是目前只支持安卓手机用户。提供了最新的电影、电视、动漫、美剧、韩剧、综艺、游戏、体育等等视频资源，并且这些都是完全免费观看，整个软件非常的简约，没有任何广告，可以说非常的黑科技。</p><p>2、食谱大全</p><div class='image-view'><img src='//upload-images.jianshu.io/upload_images/12594401-83f1166106845a85?imageMogr2/auto-orient/strip%7CimageView2/2/w/640/format/webp' /></div><p>食谱大全是一个非常不错的实用软件，特别是在日常生活中，它的主要功能就是教大家如何做饭菜。提供的种类也很丰富，有川菜、家常菜、早餐、素菜、下饭菜、煲汤、烘焙等等，可以满足你多元化的口味。值得一提的是，整个见面没有任何广告，并且都是完全免费的。</p><p>3、极速数据恢复</p><div class='image-view'><img src='//upload-images.jianshu.io/upload_images/12594401-4cd8d9a3c0dd765e?imageMogr2/auto-orient/strip%7CimageView2/2/w/640/format/webp' /></div><p>极速数据恢复是一个非常专业的数据恢复APP，目前只支持安卓手机用户，这是唯一的遗憾，它的恢复功能十分强大，如微信聊天记录、短信记录、通讯录、照片、视频、音乐、文件等等都是可以快速恢复的，整个操作也非常简单，有需要可以在手机浏览器中搜索即可。</p><p>4、古诗词大全</p><div class='image-view'><img src='//upload-images.jianshu.io/upload_images/12594401-774d16bde82b9327?imageMogr2/auto-orient/strip%7CimageView2/2/w/640/format/webp' /></div><p>古诗词大全是一个文学的手机软件，对于那些喜欢古代文学的朋友来说，非常值得收藏。里面提供的资源非常多，如现代诗、文言文、离别、咏史、思乡、唐诗三百首、宋词三百首、诗经等等，并且这些内容都是精选的。值得一提的是，整个版本非常明了，资源全部免费。</p>"
+        }
+    }
+}
