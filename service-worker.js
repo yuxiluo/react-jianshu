@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "./react-jianshu/precache-manifest.e7eb832570a6acac391585586cc19e02.js"
+  "/react-jianshu/precache-manifest.05451a7eda89055b08356cfd7ff8f477.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("./react-jianshu/index.html", {
+workbox.routing.registerNavigationRoute("/react-jianshu/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
