@@ -1,1 +1,0 @@
-export const GET_AUTHOR_RECOMMEND = 'recommend/GET_AUTHOR_RECOMMEND';
