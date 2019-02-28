@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "44f4ac486c6198e70ab2",
+    "revision": "a63baf7d0794f4cbe74b",
     "url": "/react-jianshu/static/css/main.2a28d392.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/background.891efc9c.jpg"
   },
   {
-    "revision": "0d062747c05c0edf54ee",
-    "url": "/react-jianshu/static/js/2.0d062747.chunk.js"
+    "revision": "c5838fcfc97ec95e6d77",
+    "url": "/react-jianshu/static/js/2.c5838fcf.chunk.js"
   },
   {
     "revision": "e4d613f9c05bd54e604356f678a00625",
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/hpic02.74d281c2.jpg"
   },
   {
-    "revision": "44f4ac486c6198e70ab2",
-    "url": "/react-jianshu/static/js/main.44f4ac48.chunk.js"
-  },
-  {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/react-jianshu/static/media/slick.b7c9e1e4.woff"
+    "revision": "a63baf7d0794f4cbe74b",
+    "url": "/react-jianshu/static/js/main.a63baf7d.chunk.js"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/react-jianshu/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/react-jianshu/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -56,11 +56,11 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/image.7ea31191.jpg"
   },
   {
-    "revision": "0d062747c05c0edf54ee",
+    "revision": "c5838fcfc97ec95e6d77",
     "url": "/react-jianshu/static/css/2.c8abf2b2.chunk.css"
   },
   {
-    "revision": "120c05a7796f0737ed125e54865aafff",
+    "revision": "fd0b0672c7374708472d1e8661d0d6d0",
     "url": "/react-jianshu/index.html"
   }
 ];
