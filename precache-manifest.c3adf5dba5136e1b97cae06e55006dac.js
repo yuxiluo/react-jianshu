@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/react-jianshu/static/media/slick.ced611da.eot"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/react-jianshu/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "a63baf7d0794f4cbe74b",
+    "revision": "7483cf5729bb789197e1",
     "url": "/react-jianshu/static/css/main.2a28d392.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/background.891efc9c.jpg"
   },
   {
-    "revision": "c5838fcfc97ec95e6d77",
-    "url": "/react-jianshu/static/js/2.c5838fcf.chunk.js"
+    "revision": "8f455b0440a73cbf087f",
+    "url": "/react-jianshu/static/js/2.8f455b04.chunk.js"
   },
   {
     "revision": "e4d613f9c05bd54e604356f678a00625",
@@ -32,20 +32,20 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/hpic02.74d281c2.jpg"
   },
   {
-    "revision": "a63baf7d0794f4cbe74b",
-    "url": "/react-jianshu/static/js/main.a63baf7d.chunk.js"
+    "revision": "7483cf5729bb789197e1",
+    "url": "/react-jianshu/static/js/main.7483cf57.chunk.js"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/react-jianshu/static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/react-jianshu/static/media/slick.b7c9e1e4.woff"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/react-jianshu/static/media/slick.ced611da.eot"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/react-jianshu/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/react-jianshu/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "22096669b4c4b91c3b9266894e951aef",
@@ -56,11 +56,11 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/image.7ea31191.jpg"
   },
   {
-    "revision": "c5838fcfc97ec95e6d77",
+    "revision": "8f455b0440a73cbf087f",
     "url": "/react-jianshu/static/css/2.c8abf2b2.chunk.css"
   },
   {
-    "revision": "fd0b0672c7374708472d1e8661d0d6d0",
+    "revision": "7070814b73415df4333c3eb9a5953bc6",
     "url": "/react-jianshu/index.html"
   }
 ];
