@@ -80,6 +80,51 @@ export const MenuWrap = styled.div`
         vertical-align: middle;
     }
 `;
+
+// 右侧下载app
+export const DownloadWrap = styled.div`
+    margin-bottom: 30px; 
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    background-color: #fff;
+    box-sizing: border-box;
+    .download {
+        padding: 10px 22px;
+        height: 60px;
+        display: block;
+    }
+    .download .qrcode{
+        float: left; 
+        width: 60px; height: 60px;
+        opacity: .85;
+        margin-right: 7px;
+        background: #f0f0f0;
+        overflow: hidden;
+    }
+    .download img{ 
+        vertical-align: top; 
+        width: 100%;
+    }
+    .download .info{
+        padding-top: 5px;
+    }
+    .download .info .title {
+        font-size: 15px;
+        color: #333;
+        line-height: 22px;
+    }
+    .download .ic-link{ 
+        font-size: 26px;
+        position: relative; top: 5px; left: -2px;
+        color: #666;
+    }
+    .download .info .description {
+        margin-top: 4px;
+        font-size: 13px;
+        color: #999;
+    }
+`;
  
 
 

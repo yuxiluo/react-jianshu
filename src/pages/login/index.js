@@ -6,6 +6,10 @@ import { actionCreates } from './store';
 import { LoginWrap, LoginBg } from './style';
 
 class Login extends Component { 
+    componentDidMount() {
+        document.body.style = "padding-top:0;";
+        document.title = '登录 - 简书';
+    }
     render() {
         const { login, logining, errorTips, handleLogin } = this.props;
  

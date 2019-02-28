@@ -1,7 +1,7 @@
 {
   "name": "react-jianshu",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://yuxiluo.github.io/react-jianshu",
   "proxy": "https://yuxiluo.github.io",
   "private": true,
   "dependencies": {

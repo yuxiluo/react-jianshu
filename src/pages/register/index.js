@@ -3,6 +3,10 @@ import { LoginWrap, LoginBg } from '../login/style';
 import { Link } from 'react-router-dom';
 
 class Register extends Component {
+    componentDidMount() {
+        document.body.style = "padding-top:0;";
+        document.title = "注册 - 简书";
+    }
     render() {
         return (
             <Fragment> 

@@ -10,6 +10,7 @@ import Special from './components/special';
 import Menu from './components/menu';
 // 推荐作者
 import AuthorRecommend from '../../common/recommend';
+import DownloadApp from './components/downloadApp';
 
 import {
     HomeWrap,
@@ -20,8 +21,8 @@ import {
 class Home extends Component { 
     componentDidMount() { 
         this.props.getHomeData();
-    }
-
+        document.title = '简书 - 创作你的创作';
+    } 
     render() {
         return (
             <React.Fragment>
@@ -34,6 +35,7 @@ class Home extends Component {
                     </HomeLeftPlate>
                     <HomeRightPlate>
                         <Menu />
+                        <DownloadApp />
                         <AuthorRecommend />
                     </HomeRightPlate> 
                 </HomeWrap> 

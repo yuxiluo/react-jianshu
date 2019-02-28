@@ -124,10 +124,10 @@ class Header extends Component {
                                 </Fragment>
                                 ) : (
                                 <Fragment>
-                                    <li className="nohover">
-                                    <NavLink exact to="/" className="navitem active" activeClassName="selected">首页</NavLink>
+                                    <li>
+                                    <NavLink exact to="/" className="navitem active" activeClassName="active">首页</NavLink>
                                     </li>
-                                    <li className="nohover"><a className="navitem">下载APP</a></li> 
+                                    <li><NavLink exact to="/download" className="navitem" activeClassName="active">下载APP</NavLink></li> 
                                 </Fragment> 
                                 )
                             } 
@@ -193,8 +193,7 @@ const mapDispatchToProps = (dispatch) => {
             let curPage = (page < totalPage) ? (page + 1) : 1; 
             dispatch(actionCreates.changePage(curPage)); 
         },
-        handleLogout() {
-            console.log('退出登录');
+        handleLogout() { 
             dispatch(loginActionCreates.logout());
         }
     }
