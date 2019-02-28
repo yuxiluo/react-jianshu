@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/react-jianshu/static/media/slick.b7c9e1e4.woff"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/react-jianshu/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "7483cf5729bb789197e1",
+    "revision": "15860433f3164c9981ca",
     "url": "/react-jianshu/static/css/main.2a28d392.chunk.css"
   },
   {
@@ -32,12 +32,8 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/media/hpic02.74d281c2.jpg"
   },
   {
-    "revision": "7483cf5729bb789197e1",
-    "url": "/react-jianshu/static/js/main.7483cf57.chunk.js"
-  },
-  {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/react-jianshu/static/media/slick.ced611da.eot"
+    "revision": "15860433f3164c9981ca",
+    "url": "/react-jianshu/static/js/main.15860433.chunk.js"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -46,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/react-jianshu/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/react-jianshu/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "22096669b4c4b91c3b9266894e951aef",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react-jianshu/static/css/2.c8abf2b2.chunk.css"
   },
   {
-    "revision": "7070814b73415df4333c3eb9a5953bc6",
+    "revision": "f0c2a893fdd2b1b08ffd94a3a87c392f",
     "url": "/react-jianshu/index.html"
   }
 ];
