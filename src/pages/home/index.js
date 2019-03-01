@@ -21,6 +21,7 @@ import {
 class Home extends Component { 
     componentDidMount() { 
         this.props.getHomeData();
+        document.body.style = "";
         document.title = '简书 - 创作你的创作';
     } 
     render() {
