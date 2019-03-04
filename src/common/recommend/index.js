@@ -1,5 +1,6 @@
 // 推荐作者
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { actionCreates } from './store';
 import { RecommendWrap } from './style';
@@ -32,7 +33,7 @@ class Recommend extends Component {
                         );
                     })} 
                 </ul>
-                <div className="find-more">查看全部<i className="iconfont">&#xe728;</i></div>
+                <Link to="/recommendlist" className="find-more">查看全部<i className="iconfont">&#xe728;</i></Link>
             </RecommendWrap>
         );
     };

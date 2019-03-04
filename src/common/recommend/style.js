@@ -71,6 +71,7 @@ export const RecommendWrap = styled.div`
         box-sizing: border-box;
         line-height: 26px;
         cursor: pointer;
+        display: block;
     }
     .find-more i{
         font-size: 26px;  vertical-align: top;

@@ -6,6 +6,7 @@ import Detail from './pages/detail';
 import Login from './pages/login';
 import Writer from './pages/writer';
 import Register from './pages/register';
+import RecommendList from './pages/recommendList';
 import store from './store'; 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route exact path="/detail/:id" component = {Detail} />
             <Route exact path="/writer" component = {Writer} />
             <Route exact path="/register" component = {Register} />
+            <Route exact path="/recommendlist" component = {RecommendList} />
           </Fragment>
         </Router> 
       </Provider>

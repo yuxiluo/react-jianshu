@@ -9,9 +9,9 @@ const defaultState = fromJS({
 
 export default (state = defaultState, action) => {
     switch(action.type) {
-        case actionTypes.CHANGE_ARTICLE_LIST:  
+        case actionTypes.CHANGE_ARTICLE_LIST:   
             return state.merge({
-                articleList: state.get('articleList').concat(action.result),
+                articleList: (action.nextPage === 1) ? fromJS(action.result) : state.get('articleList').concat(action.result),
                 articlePage: action.nextPage,
                 articleLoad: action.isLoad
             }); 

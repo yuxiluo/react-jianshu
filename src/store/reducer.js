@@ -5,6 +5,7 @@ import { reducer as homeReducer } from '../pages/home/store';
 import { reducer as detailReducer } from '../pages/detail/store';
 import { reducer as loginReducer } from '../pages/login/store';
 import { reducer as articleReducer } from '../common/articleList/store';
+import { reducer as authorReducer } from '../pages/recommendList/store';
 
 // 推荐作者
 import { reducer as recommendReducer } from '../common/recommend/store';
@@ -15,7 +16,8 @@ const reducer = combineReducers({
     home: homeReducer,
     articleList: articleReducer,
     detail: detailReducer,
-    recommend: recommendReducer
+    recommend: recommendReducer,
+    recommendAuthor: authorReducer
 });
 
 export default reducer;

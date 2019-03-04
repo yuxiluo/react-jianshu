@@ -13,6 +13,7 @@ class ArticleList extends Component {
 
     componentDidMount() {
         this.props.handleArticleList(0);
+        console.log('文章列表挂载成功------ArticleList')
     }
 
     render() {
