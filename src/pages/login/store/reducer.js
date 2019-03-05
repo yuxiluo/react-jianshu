@@ -1,8 +1,9 @@
 import { fromJS } from 'immutable';
+import storage from '../../../utils/storage';
 import * as actionTypes from './actionTypes';
 
 const defaultState = fromJS({
-    login: false,
+    login: storage.getStorage('isLogin'),
     logining: false,
     errorTips: '',
     userInfo: {}
@@ -11,6 +12,8 @@ const defaultState = fromJS({
 export default (state = defaultState, action) => {  
     switch(action.type) {
         case actionTypes.CHANGE_LOGIN: 
+            // 登录成功 - 本地存储用户信息
+            storage.setStorage('isLogin', true); 
             return state.merge({
                 "login": true,
                 "userInfo": fromJS(action.data)
@@ -22,7 +25,8 @@ export default (state = defaultState, action) => {
                 "errorTips": action.errorTips,
                 "logining": false
             });
-        case actionTypes.CHANGE_LOGOUT: 
+        case actionTypes.CHANGE_LOGOUT:  
+            storage.removeStorage('isLogin');
             return state.merge({
                 "login": false,
                 "logining": false,

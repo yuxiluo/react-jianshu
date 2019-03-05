@@ -1,5 +1,4 @@
-import axios from 'axios';
-import storage from '../../../utils/storage';
+import axios from 'axios'; 
 import * as actionTypes from './actionTypes';
 
 const loginAction = (data) => ({
@@ -17,9 +16,7 @@ export const login = (account, password) => {
         axios.get('/react-jianshu/api/login.json').then((res) => { 
             const result = res.data.data;
             result.userName = account; 
-            dispatch(loginAction(result));
-            // 登录成功 - 本地存储用户信息
-            storage.setStorage('isLogin', true); 
+            dispatch(loginAction(result)); 
         }).catch((error) => {  
             dispatch(loginErrorAction('登录名或密码错误，请重试!'));
         });

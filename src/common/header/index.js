@@ -4,8 +4,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import { actionCreates } from './store';
 import { actionCreates as loginActionCreates } from '../../pages/login/store';
-import SearchDropDown from './searchInfo';
-import storage from '../../utils/storage';
+import SearchDropDown from './searchInfo'; 
 import {
     HeaderWrap,
     LogoPic,
@@ -164,9 +163,9 @@ class Header extends Component {
     };
 };
  
-const mapStateToProps = (state) => {   
+const mapStateToProps = (state) => {    
     return {
-        login: storage.getStorage('isLogin') || state.getIn(['login', 'login']),
+        login: state.getIn(['login', 'login']),
         focused: state.get('header').get('focused'),
         list: state.getIn(['header', 'list']),
         searchShow: state.getIn(['header', 'searchShow']),
@@ -194,8 +193,7 @@ const mapDispatchToProps = (dispatch) => {
             let curPage = (page < totalPage) ? (page + 1) : 1; 
             dispatch(actionCreates.changePage(curPage)); 
         },
-        handleLogout() { 
-            storage.removeStorage('isLogin');
+        handleLogout() {  
             dispatch(loginActionCreates.logout());
         }
     }
