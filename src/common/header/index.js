@@ -5,6 +5,7 @@ import { CSSTransition } from 'react-transition-group';
 import { actionCreates } from './store';
 import { actionCreates as loginActionCreates } from '../../pages/login/store';
 import SearchDropDown from './searchInfo';
+import storage from '../../utils/storage';
 import {
     HeaderWrap,
     LogoPic,
@@ -50,53 +51,53 @@ class Header extends Component {
                                 onMouseLeave = {() => this.handleDropDown(false)}
                             >
                                 <div className="dropdown">
-                                    <Link to="/"><img src="//upload.jianshu.io/users/upload_avatars/16493538/dd4998fc-1507-43c3-aaf3-937db79375e1?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/120" alt="" /></Link>
+                                    <Link to="/"><img src="//upload.jianshu.io/users/upload_avatars/3243105/9a5d5a18-b96b-4a55-b9c4-0ff0d72dfa0c.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/180/h/180" alt="" /></Link>
                                 </div>
                                 <ul> 
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont">&#xe695;</i><span>我的主页</span>
                                         </Link>          
                                     </li>
                                     <li> 
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont">&#xe610;</i><span>收藏的文章</span>
                                         </Link>          
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont icon-like">&#xe742;</i><span>喜欢的文章</span>
                                         </Link>          
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont">&#xe62b;</i><span>已购内容</span>
                                         </Link>          
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont">&#xe605;</i><span>我的钱包</span>
                                         </Link>          
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont">&#xe63c;</i><span>我的简书钻</span>
                                         </Link>          
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont">&#xe604;</i><span>设置</span>
                                         </Link>          
                                     </li>
                                     <li>
-                                        <Link to="/">
+                                        <Link to="/" className="item">
                                             <i className="iconfont">&#xe6bd;</i><span>帮助与反馈</span>
                                         </Link>          
                                     </li>
                                     <li>
-                                        <Link to="/" onClick = {handleLogout}>
+                                        <div className="item" onClick = {handleLogout}>
                                             <i className="iconfont icon-signout">&#xe713;</i><span>退出</span>
-                                        </Link>          
+                                        </div>          
                                     </li>
                                 </ul>
                             </div> 
@@ -165,7 +166,7 @@ class Header extends Component {
  
 const mapStateToProps = (state) => {   
     return {
-        login: state.getIn(['login', 'login']),
+        login: storage.getStorage('isLogin') || state.getIn(['login', 'login']),
         focused: state.get('header').get('focused'),
         list: state.getIn(['header', 'list']),
         searchShow: state.getIn(['header', 'searchShow']),
@@ -194,6 +195,7 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(actionCreates.changePage(curPage)); 
         },
         handleLogout() { 
+            storage.removeStorage('isLogin');
             dispatch(loginActionCreates.logout());
         }
     }

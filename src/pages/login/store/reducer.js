@@ -22,7 +22,7 @@ export default (state = defaultState, action) => {
                 "errorTips": action.errorTips,
                 "logining": false
             });
-        case actionTypes.CHANGE_LOGOUT:
+        case actionTypes.CHANGE_LOGOUT: 
             return state.merge({
                 "login": false,
                 "logining": false,

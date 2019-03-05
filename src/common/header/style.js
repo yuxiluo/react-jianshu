@@ -190,7 +190,7 @@ export const Addition = styled.div`
     .user-wrap.user-open ul{
         display: block;
     }
-    .user-wrap li a{
+    .user-wrap li .item{
         display: block; 
         clear: both;
         font-weight: 400; 
@@ -200,7 +200,7 @@ export const Addition = styled.div`
         white-space: nowrap;
         cursor: pointer;
     }
-    .user-wrap li a:hover{
+    .user-wrap li .item:hover{
         background: #f5f5f5;
     }    
     .user-wrap li i{
