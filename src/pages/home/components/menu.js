@@ -15,7 +15,7 @@ class Menu extends Component {
                         {item.path ? 
                             <Link to={item.path}><img src = {item.imgUrl} alt="" /></Link>
                             :
-                            <a><img src = {item.imgUrl} alt="" /></a>
+                            <span><img src = {item.imgUrl} alt="" /></span>
                         } 
                         </Fragment>
                     );

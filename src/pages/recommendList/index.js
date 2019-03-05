@@ -36,7 +36,7 @@ class RecommendList extends Component {
                                                 </h4>
                                                 <p className="des">{item.description}</p>
                                             </Link>
-                                            <a className="btn"><i className="iconfont ic-follow">&#xe61c;</i> <span>关注</span></a>
+                                            <Link to="/recommendlist" className="btn"><i className="iconfont ic-follow">&#xe61c;</i> <span>关注</span></Link>
                                             <div className="meta"><span>最近更新</span><i></i></div>
                                             <div className="recent-update">
                                                 {item.update.map((childItem) => {

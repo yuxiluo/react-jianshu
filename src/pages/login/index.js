@@ -63,7 +63,7 @@ class Login extends Component {
                                         没有账号？
                                         <Link to="/register">立即注册</Link> 
                                     </div>
-                                    <a href="#" className="fr">忘记密码?</a>
+                                    <Link to="/" className="fr">忘记密码?</Link>
                             </li>
                             </ul>
                         </form>

@@ -25,9 +25,9 @@ class Recommend extends Component {
                         }
                         return (
                             <li key={item.id} data-id={item.id}>
-                                <a href="#" target="_blank" className="avatar"><img src={item.imgUrl} alt="" /></a> 
-                                <a className="follow" state="0"><i className="iconfont ic-follow">&#xe61c;</i>关注</a> 
-                                <a href="#" target="_blank" className="name">{item.name}</a> 
+                                <Link to="/recommendlist" target="_blank" className="avatar"><img src={item.imgUrl} alt="" /></Link> 
+                                <Link to="/recommendlist" className="follow" state="0"><i className="iconfont ic-follow">&#xe61c;</i>关注</Link> 
+                                <Link to="/recommendlist" target="_blank" className="name">{item.name}</Link> 
                                 <p>写了{getSize(item.size)}字 {(item.link > 0) && '· '+getSize(item.link)+'喜欢'}</p>
                             </li> 
                         );

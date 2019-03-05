@@ -48,7 +48,24 @@ export const DetailWrap = styled.div`
         font-size: 16px;
         vertical-align: middle;
     }
-
+    .author .name a{
+        color: #333;
+    }
+    .author .follow{
+        display: inline-block;
+        padding: 2px 7px 2px 5px;
+        font-size: 12px;
+        border-radius: 40px;
+        color: #fff;
+        background-color: #42c02e;
+        border: 1px solid #42c02e;
+        cursor: pointer;
+        margin: 0 0 4px 8px;
+    }
+    .author .follow i{
+        font-size: 13px; 
+        margin-right: 3px;
+    }
 
     .author .meta {
         margin-top: 5px;

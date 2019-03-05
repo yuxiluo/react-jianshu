@@ -12,14 +12,13 @@ class ArticleList extends Component {
     } 
 
     componentDidMount() {
-        this.props.handleArticleList(0);
-        console.log('文章列表挂载成功------ArticleList')
+        this.props.handleArticleList(0); 
     }
 
-    render() {
+    render() { 
         const { list, articleLoad } = this.props;
         return (
-            <ListWrap>
+            <ListWrap style={this.props.setStyle}>
                 <ul>
                     {list.toJS().map((item) => {
                         return (

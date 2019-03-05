@@ -7,6 +7,7 @@ import Login from './pages/login';
 import Writer from './pages/writer';
 import Register from './pages/register';
 import RecommendList from './pages/recommendList';
+import HotArticle from './pages/hotArticle';
 import store from './store'; 
 
 class App extends Component {
@@ -21,6 +22,8 @@ class App extends Component {
             <Route exact path="/writer" component = {Writer} />
             <Route exact path="/register" component = {Register} />
             <Route exact path="/recommendlist" component = {RecommendList} />
+            <Route exact path="/weekly" component = {HotArticle} />
+            <Route exact path="/monthly" component = {HotArticle} />
           </Fragment>
         </Router> 
       </Provider>

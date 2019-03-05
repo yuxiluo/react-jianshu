@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { actionCreates } from './store';
 import Header from '../../common/header';
@@ -19,15 +20,16 @@ class Detail extends Component {
 
                     {author.userName && 
                         <div className="author">
-                            <a className="avatar" href="/u/e78878c4a4af">
+                            <Link to={'/detail/' + artcile.id} className="avatar">
                                 <img src={author.imgUrl} alt="96" />
-                            </a>          
+                            </Link>          
                             <div className="info">
-                                <span className="name"><a href="/u/e78878c4a4af">{author.userName}</a></span>  
-                                <a className="btn btn-success follow">
-                                    <i className="iconfont ic-follow"></i>
-                                    <span>{author.follow > 0 ? '已关注' : '关注' }</span>
-                                </a> 
+                                <span className="name"><Link to={'/detail/' + artcile.id}>{author.userName}</Link></span>  
+                                <div className="btn follow">
+                                    <i className="iconfont ic-follow">&#xe61c;</i>
+                                    <span>关注</span>
+                                    {/* <span>{author.follow > 0 ? '已关注' : '关注' }</span> */}
+                                </div> 
                                 <div className="meta"> 
                                     {(author.paid > 0) && (
                                         <span className="jsd-meta">

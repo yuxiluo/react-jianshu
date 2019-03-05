@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
-import { NavLink, Link, Redirect } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import { actionCreates } from './store';
 import { actionCreates as loginActionCreates } from '../../pages/login/store';
@@ -19,7 +19,7 @@ class Header extends Component {
         super(...props);
         this.state = {
             dropdown: false
-        };
+        }; 
     }
 
     handleDropDown = (dropState) => { 
@@ -39,9 +39,9 @@ class Header extends Component {
                 <div className="header-content">
                     <Link to="/"><LogoPic /></Link>
                     <Addition> 
-                        <a className="writting"
+                        <span className="writting"
                             onClick = {this.handleWriter}
-                        >写文章</a>
+                        >写文章</span>
                         {!login && <Link to="/register" className="reg">注册</Link>} 
                          
                         {login ? 
@@ -50,53 +50,53 @@ class Header extends Component {
                                 onMouseLeave = {() => this.handleDropDown(false)}
                             >
                                 <div className="dropdown">
-                                    <a href=""><img src="//upload.jianshu.io/users/upload_avatars/16493538/dd4998fc-1507-43c3-aaf3-937db79375e1?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/120" alt="" /></a>
+                                    <Link to="/"><img src="//upload.jianshu.io/users/upload_avatars/16493538/dd4998fc-1507-43c3-aaf3-937db79375e1?imageMogr2/auto-orient/strip|imageView2/1/w/120/h/120" alt="" /></Link>
                                 </div>
                                 <ul> 
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont">&#xe695;</i><span>我的主页</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li> 
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont">&#xe610;</i><span>收藏的文章</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont icon-like">&#xe742;</i><span>喜欢的文章</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont">&#xe62b;</i><span>已购内容</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont">&#xe605;</i><span>我的钱包</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont">&#xe63c;</i><span>我的简书钻</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont">&#xe604;</i><span>设置</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <i className="iconfont">&#xe6bd;</i><span>帮助与反馈</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                     <li>
-                                        <a onClick = {handleLogout}>
+                                        <Link to="/" onClick = {handleLogout}>
                                             <i className="iconfont icon-signout">&#xe713;</i><span>退出</span>
-                                        </a>          
+                                        </Link>          
                                     </li>
                                 </ul>
                             </div> 
@@ -116,16 +116,16 @@ class Header extends Component {
                                         <NavLink exact to="/" className="navitem active">发现</NavLink>
                                     </li>
                                     <li>
-                                        <a href="" className="navitem">关注</a>
+                                        <Link to="/" className="navitem">关注</Link>
                                     </li>
                                     <li>
-                                        <a href="" className="navitem">消息</a>
+                                        <Link to="/" className="navitem">消息</Link>
                                     </li>
                                 </Fragment>
                                 ) : (
                                 <Fragment>
                                     <li>
-                                    <NavLink exact to="/" className="navitem active" activeClassName="active">首页</NavLink>
+                                    <NavLink exact to="/" className="navitem" activeClassName="active">首页</NavLink>
                                     </li>
                                     <li><NavLink exact to="/download" className="navitem" activeClassName="active">下载APP</NavLink></li> 
                                 </Fragment> 
