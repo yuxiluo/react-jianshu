@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "./static/media/slick.ced611da.eot"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "./static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "ccf572a45aecf0769ec9",
+    "revision": "dbca9481ecd3863a8e76",
     "url": "./static/css/main.2a28d392.chunk.css"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.9eb600ee.js"
   },
   {
-    "revision": "03cc8798d5cc3f986e49cbcb2eb63079",
-    "url": "./static/media/recommend-author.03cc8798.png"
+    "revision": "f02153a572050a38141287bda2503320",
+    "url": "./static/media/thirty-hot.f02153a5.png"
   },
   {
-    "revision": "9b18f5d013b86305ae10",
-    "url": "./static/js/2.9b18f5d0.chunk.js"
+    "revision": "4d002d411de5455b4a3a",
+    "url": "./static/js/2.4d002d41.chunk.js"
   },
   {
     "revision": "e4d613f9c05bd54e604356f678a00625",
@@ -32,20 +32,20 @@ self.__precacheManifest = [
     "url": "./static/media/hpic02.74d281c2.jpg"
   },
   {
-    "revision": "ccf572a45aecf0769ec9",
-    "url": "./static/js/main.ccf572a4.chunk.js"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "./static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "./static/media/slick.f97e3bbf.svg"
+    "revision": "dbca9481ecd3863a8e76",
+    "url": "./static/js/main.dbca9481.chunk.js"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "./static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "./static/media/slick.ced611da.eot"
   },
   {
     "revision": "22096669b4c4b91c3b9266894e951aef",
@@ -60,11 +60,19 @@ self.__precacheManifest = [
     "url": "./static/media/background.891efc9c.jpg"
   },
   {
-    "revision": "9b18f5d013b86305ae10",
+    "revision": "03cc8798d5cc3f986e49cbcb2eb63079",
+    "url": "./static/media/recommend-author.03cc8798.png"
+  },
+  {
+    "revision": "344e8726a99ec07a8d552b33fe50be82",
+    "url": "./static/media/seven-hot.344e8726.png"
+  },
+  {
+    "revision": "4d002d411de5455b4a3a",
     "url": "./static/css/2.57283504.chunk.css"
   },
   {
-    "revision": "268a2ac716322925cb211e7dd13e34ca",
+    "revision": "d30fc60ebb7e2758447bb392b890e7f0",
     "url": "./index.html"
   }
 ];
